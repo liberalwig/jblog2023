@@ -9,34 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-14:14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/BlogVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/CategoryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/CommentsVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/PostVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/java/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-basic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-cate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-cate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-write.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/blog-main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/blog-main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/error/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/error/403.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/a.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinForm.jspp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinForm.jspp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/loginForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-16:57" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +166,7 @@
       <workItem from="1675909940058" duration="3048000" />
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
-      <workItem from="1675917451890" duration="10666000" />
+      <workItem from="1675917451890" duration="10875000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -209,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675919654304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2023-02-09-Thu-16:57">
+      <created>1675928880660</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675928880660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023-02-09-Thu-13:44" />
     <MESSAGE value="2023-02-09-Thu-14:14" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-14:14" />
+    <MESSAGE value="2023-02-09-Thu-16:57" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-16:57" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

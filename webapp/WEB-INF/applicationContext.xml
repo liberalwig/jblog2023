@@ -23,14 +23,14 @@
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Component" />
     </context:component-scan>
 
-    <!-- oracle datasource -->
-    <bean id="oracleDatasource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
-        <property name="URL" value="jdbc:oracle:thin:@localhost:1521:xe" />
-        <property name="user" value="jblog" />
-        <property name="password" value="jblog" />
-        <property name="connectionCachingEnabled" value="true" />
-        <qualifier value="main-db" />
-    </bean>
+<!--    &lt;!&ndash; oracle datasource &ndash;&gt;-->
+<!--    <bean id="oracleDatasource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">-->
+<!--        <property name="URL" value="jdbc:oracle:thin:@localhost:1521:xe" />-->
+<!--        <property name="user" value="jblog" />-->
+<!--        <property name="password" value="jblog" />-->
+<!--        <property name="connectionCachingEnabled" value="true" />-->
+<!--        <qualifier value="main-db" />-->
+<!--    </bean>-->
 
 <!--    &lt;!&ndash; MyBatis SqlSessionFactoryBean 설정 &ndash;&gt;-->
 <!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
