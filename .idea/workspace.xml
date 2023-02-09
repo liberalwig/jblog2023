@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-16:50">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-17:00">
+      <change afterPath="$PROJECT_DIR$/webapp/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,7 @@
       <workItem from="1675909940058" duration="3048000" />
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
-      <workItem from="1675917451890" duration="11460000" />
+      <workItem from="1675917451890" duration="11615000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675929030412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2023-02-09-Thu-17:00">
+      <created>1675929649166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675929649166</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +227,8 @@
     <MESSAGE value="2023-02-09-Thu-14:14" />
     <MESSAGE value="2023-02-09-Thu-16:57" />
     <MESSAGE value="2023-02-09-Thu-16:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-16:50" />
+    <MESSAGE value="2023-02-09-Thu-17:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-17:00" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
