@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JBlog</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jblog.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/assets/css/jblog.css">
 
 
 </head>
@@ -52,7 +52,7 @@
                     <td>7</td>
                     <td>자바기초와 객체지향</td>
                     <td class='text-center'>
-                        <img class="btnCateDel" src="${pageContext.request.contextPath}/assets/images/delete.jpg">
+                        <img class="btnCateDel" src="${pageContext.request.contextPath}/WEB-INF/assets/images/delete.jpg">
                     </td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@
                     <td>5</td>
                     <td>오라클 설치와 sql문</td>
                     <td class='text-center'>
-                        <img class="btnCateDel" src="${pageContext.request.contextPath}/assets/images/delete.jpg">
+                        <img class="btnCateDel" src="${pageContext.request.contextPath}/WEB-INF/assets/images/delete.jpg">
                     </td>
                 </tr>
                 <!-- 리스트 영역 -->

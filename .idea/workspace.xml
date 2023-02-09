@@ -2,34 +2,40 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="jblog2023:war" />
+      <artifact name="jblog2023:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-13:44">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/java/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/main/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-basic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-cate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-write.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/blog-main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/error/403.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/a.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinForm.jspp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/loginForm.jsp" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-14:14">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/BlogVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/CommentsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/PostVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/java/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-cate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-cate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/admin/blog-admin-write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/blog-main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/blog/blog-main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/error/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/error/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/a.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinForm.jspp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinForm.jspp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinSuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/user/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +55,9 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" value="" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,17 +76,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/javaStudy/jblog2023",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35694572",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "6092844e0ff414707015580e58de96e3"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF\views" />
+      <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF" />
+      <recent name="C:\javaStudy\jblog2023" />
       <recent name="C:\javaStudy\jblog2023\web\WEB-INF" />
       <recent name="C:\javaStudy\jblog2023\src\main\resources" />
-      <recent name="C:\javaStudy\jblog2023\src\main\java" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,9 +97,9 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000/jblog2023" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="jblog2023:war">
+        <artifact name="jblog2023:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/jblog2023_war" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -168,7 +177,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="jblog2023:war" />
+          <artifact name="jblog2023:war exploded" />
         </option>
       </method>
     </configuration>
@@ -184,7 +193,7 @@
       <workItem from="1675909940058" duration="3048000" />
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
-      <workItem from="1675917451890" duration="2109000" />
+      <workItem from="1675917451890" duration="10666000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675917850869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023-02-09-Thu-14:14">
+      <created>1675919654304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675919654304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +228,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023-02-09-Thu-13:44" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-13:44" />
+    <MESSAGE value="2023-02-09-Thu-14:14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-14:14" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JBlog</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jblog.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/assets/css/jblog.css">
 
 
 </head>
@@ -37,7 +37,7 @@
                     </tr>
                     <tr>
                         <td><label>로고이미지</label></td>
-                        <td class="text-left"><img src="${pageContext.request.contextPath}/assets/images/spring-logo.jpg"></td>
+                        <td class="text-left"><img src="${pageContext.request.contextPath}/WEB-INF/assets/images/spring-logo.jpg"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>

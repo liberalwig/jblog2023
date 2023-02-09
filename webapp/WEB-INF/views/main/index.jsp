@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JBlog</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jblog2.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/assets/css/jblog2.css">
 </head>
 <body>
 <div id="center-content">
@@ -25,7 +25,7 @@
             <input id="rdo-title" type="radio" name="kwdOpt" value="optTitle" >
 
             <label for="rdo-userName">블로거 이름</label>
-            <input id="rdo-userName"" type="radio" name="kwdOpt" value="optName" >
+            <input id="rdo-userName" type="radio" name="kwdOpt" value="optName" >
         </fieldset>
     </form>
 

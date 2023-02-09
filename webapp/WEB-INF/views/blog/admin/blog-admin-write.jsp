@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JBlog</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jblog.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/WEB-INF/assets/css/jblog.css">
 
 </head>
 
