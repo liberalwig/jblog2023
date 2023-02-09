@@ -9,17 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-13:44">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/java/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/main/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-basic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-cate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/admin/blog-admin-write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/blog/blog-main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/error/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/blog-header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/includes/main-header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinForm.jspp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/joinSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/src/main/resources/views/user/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/javaStudy/jblog2023",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35694572",
     "spring.configuration.checksum": "6092844e0ff414707015580e58de96e3"
@@ -68,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\javaStudy\jblog2023\web\WEB-INF" />
       <recent name="C:\javaStudy\jblog2023\src\main\resources" />
       <recent name="C:\javaStudy\jblog2023\src\main\java" />
     </key>
@@ -173,8 +184,16 @@
       <workItem from="1675909940058" duration="3048000" />
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
-      <workItem from="1675917451890" duration="328000" />
+      <workItem from="1675917451890" duration="2109000" />
     </task>
+    <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
+      <created>1675917850868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675917850869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,5 +209,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023-02-09-Thu-13:44" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-13:44" />
   </component>
 </project>
