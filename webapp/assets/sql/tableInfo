@@ -1,0 +1,84 @@
+
+CREATE TABLE member(
+    memberSn NUMBER NOT NULL PRIMARY KEY ,
+    id VARCHAR2(50) NOT NULL UNIQUE,
+    pw VARCHAR2(50) NOT NULL,
+    name VARCHAR2(100) NOT NULL,
+    joinDate DATE NOT NULL,
+    hp1 NUMBER,
+    hp2 NUMBER,
+    hp3 NUMBER
+);
+
+COMMENT ON COLUMN member.memberSn IS '회원일련번호';
+COMMENT ON COLUMN member.id IS '아이디';
+COMMENT ON COLUMN member.pw IS '패스워드';
+COMMENT ON COLUMN member.name IS '회원이름';
+COMMENT ON COLUMN member.joinDate IS '가입일';
+COMMENT ON COLUMN member.hp1 IS '연락처1';
+COMMENT ON COLUMN member.hp2 IS '연락처2';
+COMMENT ON COLUMN member.hp3 IS '연락처3';
+
+SELECT * FROM member;
+
+
+CREATE TABLE blog(
+    id VARCHAR2(50) PRIMARY KEY REFERENCES member(id),
+    blogTitle VARCHAR2(200) NOT NULL ,
+    logoFile VARCHAR2(200)
+);
+
+COMMENT ON COLUMN blog.id IS '식별번호';
+COMMENT ON COLUMN blog.blogTitle IS '블로그제목';
+COMMENT ON COLUMN blog.logoFile IS '블로그이미지경로';
+
+SELECT * FROM blog;
+
+CREATE TABLE category(
+    cateNo NUMBER PRIMARY KEY ,
+    id VARCHAR2(50) REFERENCES blog(id) ,
+    cateName VARCHAR2(200) NOT NULL ,
+    description VARCHAR2(500),
+    regDate DATE NOT NULL
+);
+
+COMMENT ON COLUMN category.cateNo IS '식별번호';
+COMMENT ON COLUMN category.id IS '회원번호';
+COMMENT ON COLUMN category.cateName IS '카테고리명';
+COMMENT ON COLUMN category.description IS '카테고리설명';
+COMMENT ON COLUMN category.regDate IS '등록일';
+
+SELECT * FROM category;
+
+
+CREATE TABLE post(
+    postNo NUMBER PRIMARY KEY ,
+    cateNo NUMBER REFERENCES category(cateNo) ,
+    postTitle VARCHAR2(300) NOT NULL ,
+    postContent VARCHAR2(400) ,
+    regDate DATE NOT NULL
+);
+
+COMMENT ON COLUMN post.postNo IS '식별번호';
+COMMENT ON COLUMN post.cateNo IS '카테고리번호';
+COMMENT ON COLUMN post.postTitle IS '글 제목';
+COMMENT ON COLUMN post.postContent IS '글 내용';
+COMMENT ON COLUMN post.regDate IS '글 작성일';
+
+SELECT * FROM post;
+
+CREATE TABLE comments(
+    cmtNo NUMBER PRIMARY KEY ,
+    postNo NUMBER REFERENCES post(postNo) ,
+    userNo NUMBER REFERENCES member(memberSn) ,
+    cmtContent VARCHAR2(1000) NOT NULL ,
+    regDate DATE NOT NULL
+);
+
+COMMENT ON COLUMN comments.cmtNo IS '식별번호';
+COMMENT ON COLUMN comments.postNo IS '글번호';
+COMMENT ON COLUMN comments.userNo IS '회원번호';
+COMMENT ON COLUMN comments.cmtContent IS '댓글내용';
+COMMENT ON COLUMN comments.regDate IS '등록일';
+
+SELECT * FROM COMMENTS;

@@ -9,8 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-17:00">
-      <change afterPath="$PROJECT_DIR$/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-17:02">
+      <change afterPath="$PROJECT_DIR$/webapp/assets/sql/tableInfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +57,21 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35694572",
     "settings.editor.selected.configurable": "spring",
-    "spring.configuration.checksum": "6092844e0ff414707015580e58de96e3"
+    "spring.configuration.checksum": "8991487c425a12abd92d4b425233e564"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\javaStudy\jblog2023\webapp" />
       <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF\views" />
       <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF" />
       <recent name="C:\javaStudy\jblog2023" />
       <recent name="C:\javaStudy\jblog2023\web\WEB-INF" />
-      <recent name="C:\javaStudy\jblog2023\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,7 +175,8 @@
       <workItem from="1675909940058" duration="3048000" />
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
-      <workItem from="1675917451890" duration="11615000" />
+      <workItem from="1675917451890" duration="12147000" />
+      <workItem from="1676100001335" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -205,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675929649166</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2023-02-09-Thu-17:02">
+      <created>1675929786065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675929786065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +243,8 @@
     <MESSAGE value="2023-02-09-Thu-16:57" />
     <MESSAGE value="2023-02-09-Thu-16:50" />
     <MESSAGE value="2023-02-09-Thu-17:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-17:00" />
+    <MESSAGE value="2023-02-09-Thu-17:02" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-17:02" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
