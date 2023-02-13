@@ -9,19 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-13-Mon-11:30">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-13-Mon-14:11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/MemberVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/a.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinForm.jspp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinForm.jspp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/loginForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/blog-footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/member/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinForm.jspp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinSuccess.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/member/loginForm.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,24 +52,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaStudy/jblog-master",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.35694572",
-    "settings.editor.selected.configurable": "http.proxy",
-    "spring.configuration.checksum": "8991487c425a12abd92d4b425233e564"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/javaStudy/jblog-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35694572&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8991487c425a12abd92d4b425233e564&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\javaStudy\jblog2023\src\main\resources\mybatis\mappers" />
@@ -187,7 +182,8 @@
       <workItem from="1675915461348" duration="1693000" />
       <workItem from="1675917451890" duration="12147000" />
       <workItem from="1676100001335" duration="5519000" />
-      <workItem from="1676258084020" duration="4054000" />
+      <workItem from="1676258084020" duration="4287000" />
+      <workItem from="1676265602157" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -238,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676255454610</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2023-02-13-Mon-14:11">
+      <created>1676265086298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676265086298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +266,8 @@
     <MESSAGE value="2023-02-09-Thu-17:00" />
     <MESSAGE value="2023-02-09-Thu-17:02" />
     <MESSAGE value="2023-02-13-Mon-11:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-13-Mon-11:30" />
+    <MESSAGE value="2023-02-13-Mon-14:11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-13-Mon-14:11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

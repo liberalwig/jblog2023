@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/mainPage")
-    public String model(Model model) {
+    @RequestMapping("/testPage")
+    public String main(Model model) {
         String str = "test";
         model.addAttribute("str", str);
 
-        System.out.println("HelloWorld");
+        System.out.println("Hello Controller > main()");
 
         return "main/index";
     }
