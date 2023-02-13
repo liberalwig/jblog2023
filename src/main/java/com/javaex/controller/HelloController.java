@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/test")
+    @RequestMapping("/mainPage")
     public String model(Model model) {
         String str = "test";
         model.addAttribute("str", str);

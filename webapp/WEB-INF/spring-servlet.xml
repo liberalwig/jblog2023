@@ -7,11 +7,11 @@
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd"
        xmlns:mvc="http://www.springframework.org/schema/mvc">
-l
+
     <context:annotation-config />
 
     <!-- com.javaex.controller 패키지 밑에 있는 클래스 중에 @Controller를 달고 있는 클래스의 객체를 생성 하겠다. (new 하겠다) -->
-    <context:component-scan base-package="com.javaex"/>
+    <context:component-scan base-package="com.javaex.controller"/>
 
     <!-- 기본 뷰 리졸버 -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

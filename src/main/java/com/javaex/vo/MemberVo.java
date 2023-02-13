@@ -1,4 +1,4 @@
 package com.javaex.vo;
 
-public class UserVo {
+public class MemberVo {
 }

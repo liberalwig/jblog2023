@@ -9,10 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-09-Thu-17:02">
-      <change afterPath="$PROJECT_DIR$/webapp/assets/sql/tableInfo" afterDir="false" />
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-13-Mon-11:30">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/MemberVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/includes/main-header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/a.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinForm.jspp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinForm.jspp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/joinSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/joinSuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/views/user/loginForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/views/member/loginForm.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -52,11 +62,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaStudy/jblog2023",
+    "last_opened_file_path": "C:/javaStudy/jblog-master",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35694572",
-    "settings.editor.selected.configurable": "spring",
+    "settings.editor.selected.configurable": "http.proxy",
     "spring.configuration.checksum": "8991487c425a12abd92d4b425233e564"
   },
   "keyToStringList": {
@@ -67,16 +77,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\javaStudy\jblog2023\src\main\resources\mybatis\mappers" />
       <recent name="C:\javaStudy\jblog2023\webapp" />
       <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF\views" />
       <recent name="C:\javaStudy\jblog2023\webapp\WEB-INF" />
       <recent name="C:\javaStudy\jblog2023" />
-      <recent name="C:\javaStudy\jblog2023\web\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000/jblog2023" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="jblog2023:war exploded">
@@ -176,7 +186,8 @@
       <workItem from="1675913015392" duration="792000" />
       <workItem from="1675915461348" duration="1693000" />
       <workItem from="1675917451890" duration="12147000" />
-      <workItem from="1676100001335" duration="2964000" />
+      <workItem from="1676100001335" duration="5519000" />
+      <workItem from="1676258084020" duration="4054000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -220,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675929786065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2023-02-13-Mon-11:30">
+      <created>1676255454610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676255454610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +262,8 @@
     <MESSAGE value="2023-02-09-Thu-16:50" />
     <MESSAGE value="2023-02-09-Thu-17:00" />
     <MESSAGE value="2023-02-09-Thu-17:02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-09-Thu-17:02" />
+    <MESSAGE value="2023-02-13-Mon-11:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-13-Mon-11:30" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,8 +6,8 @@
 </a>
 <ul class="menu">
     <!-- 로그인 전 메뉴 -->
-    <li><a href="${pageContext.request.contextPath}/user/loginForm">로그인</a></li>
-    <li><a href="${pageContext.request.contextPath}/user/joinForm">회원가입</a></li>
+    <li><a href="${pageContext.request.contextPath}/member/loginForm">로그인</a></li>
+    <li><a href="${pageContext.request.contextPath}/member/joinForm">회원가입</a></li>
 
     <%--
    <!-- 로그인 후 메뉴 -->
