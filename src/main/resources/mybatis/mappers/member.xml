@@ -4,10 +4,10 @@
 
 <mapper namespace="member">
 
-<insert id="memberInsert" parameterType="MemberVo">
+<insert id="insert" parameterType="MemberVo">
     <![CDATA[
 			insert into member
-			values (seq_member_no.nextval, #{id}, #{name}, #{password}, sysdate)
+			values (seq_member_no.nextval, #{id}, #{pw}, #{name}, sysdate)
 		]]>
 </insert>
 
