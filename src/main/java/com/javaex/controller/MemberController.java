@@ -29,4 +29,21 @@ public class MemberController {
 
         return "";
     }
+
+    // 로그인 폼
+    @RequestMapping("/loginForm")
+    public String loginForm() {
+        System.out.println("UserController > loginForm()");
+
+        return "member/loginForm";
+    }
+
+//     로그인
+//    @RequestMapping("/login")
+//    public String login(MemberVo memberVo) {
+//        System.out.println("MemberController > login()");
+//        memberService.login(memberVo);
+//
+//        return "";
+//    }
 }

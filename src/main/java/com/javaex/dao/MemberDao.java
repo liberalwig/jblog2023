@@ -12,7 +12,7 @@ public class MemberDao {
     SqlSession sqlSession;
 
     public void memberInsert(MemberVo memberVo) {
-        System.out.println("MemberRepository > join()");
+        System.out.println("MemberDao > join()");
         sqlSession.insert("member.memberInsert", memberVo);
     }
 }

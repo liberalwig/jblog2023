@@ -47,18 +47,26 @@
 					</tr>
 					<tr>
 						<td><label for="txtPassword">패스워드</label></td>
-						<td><input id="txtPassword" type="password" name="password" value=""></td>
+						<td><input id="txtPassword" type="password" name="pw" value=""></td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><label for="txtUserName">이름</label></td>
-						<td><input id="txtUserName" type="text" name="userName" value=""></td>
+						<td><input id="txtUserName" type="text" name="name" value=""></td>
 						<td></td>
 					</tr>
 					<tr>
 						<td><span>약관동의</span></td>
 						<td colspan="3"><input id="chkAgree" type="checkbox" name="agree" value="y"> <label for="chkAgree">서비스 약관에 동의합니다.</label></td>
 					</tr>
+					<tr>
+						<td><label for="txtUserName">휴대폰 번호</label></td>
+						<td><input id="hp1" type="text" name="hp1" value=""></td>
+						<td><input id="hp2" type="text" name="hp2" value=""></td>
+						<td><input id="hp3" type="text" name="hp2" value=""></td>
+						<td></td>
+					</tr>
+
 				</table>
 				<div id="btnArea">
 					<button id="btnJoin" class="btn" type="submit">회원가입</button>
@@ -83,9 +91,9 @@
 			id : id
 		}
 		$.ajax({
-			url : "${pageContext.request.contextPath}/user/idCheck",
+			url : "${pageContext.request.contextPath}/member/idCheck",
 			type : "post",
-			data : userVo,
+			data : memberVo,
 
 			//응답받을때
 			success : function(result) {
