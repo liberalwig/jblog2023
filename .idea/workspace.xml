@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-14-Tue-11:34">
+    <list default="true" id="9f149a34-a730-4535-ab8f-b9eaf0862b02" name="Changes" comment="2023-02-14-Tue-12:50">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaex/vo/MemberVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaex/vo/MemberVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mappers/member.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +182,7 @@
       <workItem from="1676100001335" duration="5519000" />
       <workItem from="1676258084020" duration="4287000" />
       <workItem from="1676265602157" duration="8727000" />
-      <workItem from="1676338615179" duration="6433000" />
+      <workItem from="1676338615179" duration="6942000" />
     </task>
     <task id="LOCAL-00001" summary="2023-02-09-Thu-13:44">
       <created>1675917850868</created>
@@ -259,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676342116126</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2023-02-14-Tue-12:50">
+      <created>1676346635725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676346635725</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +289,8 @@
     <MESSAGE value="2023-02-13-Mon-14:11" />
     <MESSAGE value="2023-02-13-Mon-15:20" />
     <MESSAGE value="2023-02-14-Tue-11:34" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-02-14-Tue-11:34" />
+    <MESSAGE value="2023-02-14-Tue-12:50" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-02-14-Tue-12:50" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
