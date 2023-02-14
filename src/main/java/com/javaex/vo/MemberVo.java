@@ -7,23 +7,12 @@ public class MemberVo {
     private String pw;
     private String name;
     private String joinDate;
-    private int hp1;
-    private int hp2;
-    private int hp3;
+    private String hp1;
+    private String hp2;
+    private String hp3;
 
     private MemberVo() {
 
-    }
-
-    public MemberVo(int memberSn, String id, String pw, String name, String joinDate, int hp1, int hp2, int hp3) {
-        this.memberSn = memberSn;
-        this.id = id;
-        this.pw = pw;
-        this.name = name;
-        this.joinDate = joinDate;
-        this.hp1 = hp1;
-        this.hp2 = hp2;
-        this.hp3 = hp3;
     }
 
     public int getMemberSn() {
@@ -66,27 +55,27 @@ public class MemberVo {
         this.joinDate = joinDate;
     }
 
-    public int getHp1() {
+    public String getHp1() {
         return hp1;
     }
 
-    public void setHp1(int hp1) {
+    public void setHp1(String hp1) {
         this.hp1 = hp1;
     }
 
-    public int getHp2() {
+    public String getHp2() {
         return hp2;
     }
 
-    public void setHp2(int hp2) {
+    public void setHp2(String hp2) {
         this.hp2 = hp2;
     }
 
-    public int getHp3() {
+    public String getHp3() {
         return hp3;
     }
 
-    public void setHp3(int hp3) {
+    public void setHp3(String hp3) {
         this.hp3 = hp3;
     }
 
@@ -98,11 +87,9 @@ public class MemberVo {
                 ", pw='" + pw + '\'' +
                 ", name='" + name + '\'' +
                 ", joinDate='" + joinDate + '\'' +
-                ", hp1=" + hp1 +
-                ", hp2=" + hp2 +
-                ", hp3=" + hp3 +
+                ", hp1='" + hp1 + '\'' +
+                ", hp2='" + hp2 + '\'' +
+                ", hp3='" + hp3 + '\'' +
                 '}';
     }
-
-
 }

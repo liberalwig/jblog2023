@@ -4,7 +4,7 @@
 
 <mapper namespace="member">
 
-<insert id="insert" parameterType="MemberVo">
+<insert id="memberInsert" parameterType="MemberVo">
     <![CDATA[
 			insert into member
 			values (seq_member_no.nextval, #{id}, #{pw}, #{name}, sysdate)

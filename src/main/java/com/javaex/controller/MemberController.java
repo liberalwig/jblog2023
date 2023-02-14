@@ -24,9 +24,10 @@ public class MemberController {
 
     // 회원가입
     @RequestMapping("join")
-    public String join(@ModelAttribute MemberVo memberVo) {
+    public String join(MemberVo memberVo) {
         System.out.println("MemberController > join()");
         memberService.join(memberVo);
+
         return "";
     }
 }

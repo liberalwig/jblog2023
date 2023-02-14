@@ -13,6 +13,6 @@ public class MemberDao {
 
     public void memberInsert(MemberVo memberVo) {
         System.out.println("MemberRepository > join()");
-        sqlSession.insert(memberVo.getId());
+        sqlSession.insert("member.memberInsert", memberVo);
     }
 }

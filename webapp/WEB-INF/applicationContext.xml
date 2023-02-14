@@ -41,6 +41,4 @@
         <constructor-arg index="0" ref="sqlSessionFactory" />
     </bean>
 
-
-
 </beans>
