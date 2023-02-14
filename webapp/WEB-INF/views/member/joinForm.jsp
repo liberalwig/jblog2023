@@ -28,7 +28,7 @@
 		<c:import url="/WEB-INF/views/includes/main-header.jsp"></c:import>
 
 		<div>
-			<form id="joinForm" method="post" action="${pageContext.request.contextPath}/user/join">
+			<form id="joinForm" method="post" action="${pageContext.request.contextPath}/member/join">
 				<table>
 					<colgroup>
 						<col style="width: 100px;">
